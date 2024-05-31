@@ -5,6 +5,47 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+	div {
+		border: 1px solid red;
+		padding: 3px;
+		margin: 2px;
+		border-radius: 6px;
+	}
+	div#root { border: 0;}
+	div.container {
+		width: 900px;
+		margin: 0px auto;
+		border: 0;
+	}
+	div#sidemenu {
+		width: 20%;
+		height: 400px;
+	}
+	div#maincontent {
+		border: 0;
+		width: 75%;
+	}
+	#middle {
+		border: 0px solid black;
+		overflow: hidden;
+		padding: 0;
+		margin: 0;
+	}
+	#bottom {
+		clear: both;
+	}
+	#top ul > li {
+		float: left;
+		width: 100px;
+	}
+	#middle > div {
+		float: left;
+	}
+	#top {
+		overflow: hidden;
+	}
+</style>
 </head>
 <body>
 
@@ -25,11 +66,11 @@
 			<!-- 사이드 메뉴 위치 -->
 			<div id="sidemenu">
 				<ul>
-					<li>사이드 메뉴1</li>
-					<li>사이드 메뉴2</li>
-					<li>사이드 메뉴3</li>
-					<li>사이드 메뉴4</li>
-					<li>사이드 메뉴5</li>
+					<li>사이드메뉴1</li>
+					<li>사이드메뉴2</li>
+					<li>사이드메뉴3</li>
+					<li>사이드메뉴4</li>
+					<li>사이드메뉴5</li>
 				</ul>
 			</div>
 			<!-- main 내용 위치 -->
@@ -40,10 +81,11 @@
 		</div>
 		<div id="bottom">
 			<address>
-				Copyright (c) Comstudy Academy 2024
+				Copyright (c) Comstudy Academy 2024.
 			</address>
 		</div>
 	</div>
+	<!--  end of container -->
 </div>
 
 </body>
